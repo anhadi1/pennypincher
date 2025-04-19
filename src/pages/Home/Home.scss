@@ -1,0 +1,56 @@
+.home {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    padding: 0 2rem;
+  
+    .content {
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+  
+    .circle {
+      width: 8rem;
+      height: 8rem;
+      background-color: #8b6542;
+      border-radius: 50%;
+    }
+  
+    .speech-bubble {
+      position: relative;
+      background-color: #e7d9cd;
+      padding: 2rem;
+      border-radius: 1rem;
+      max-width: 500px;
+  
+      &::before {
+        content: "";
+        position: absolute;
+        left: -20px;
+        bottom: 1rem;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid #e7d9cd;
+      }
+  
+      h2 {
+        color: #8b6542;
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+  
+      p {
+        color: #8b6542;
+        margin-bottom: 0.5rem;
+  
+        a {
+          color: #8b6542;
+          text-decoration: underline;
+          margin: 0 0.25rem;
+        }
+      }
+    }
+  }
