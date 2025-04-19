@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="header">
       <h1 className="logo">
-        Penny<br />Pincher
+        Pynchr
       </h1>
       <div className="buttons">
         <button className="btn">Log in</button>
