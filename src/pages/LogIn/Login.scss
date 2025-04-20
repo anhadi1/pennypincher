@@ -1,0 +1,90 @@
+.login {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #0d1b2a 0%, #122b47 50%, #123456 100%);
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+  
+    &__header {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 1.5rem 2rem;
+    }
+  
+    &__logo {
+      width: 42px;
+      height: 42px;
+    }
+  
+    &__brand {
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+  
+    &__card {
+      margin: auto 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 420px;
+      padding: 2rem;
+    }
+  
+    &__title {
+      font-size: 2.1rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  
+    &__form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 1.1rem;
+    }
+  
+    &__input {
+      width: 100%;
+      padding: 0.9rem 1rem;
+      border-radius: 6px;
+      border: none;
+      font-size: 1rem;
+  
+      &:focus {
+        outline: 2px solid #a0c4ff;
+      }
+    }
+  
+    &__btn {
+      margin-top: 0.5rem;
+      background: #c9dffd;
+      color: #0d1b2a;
+      font-weight: 600;
+      border: none;
+      border-radius: 9999px;
+      padding: 0.9rem 0;
+      cursor: pointer;
+      transition: background 0.2s ease;
+  
+      &:hover {
+        background: #b7d5fe;
+      }
+    }
+  
+    &__signup {
+      margin-top: 1.6rem;
+      font-size: 0.9rem;
+  
+      a {
+        color: #c9dffd;
+        text-decoration: underline;
+      }
+    }
+  }
+  
